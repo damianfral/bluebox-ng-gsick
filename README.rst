@@ -11,7 +11,6 @@
 
 
 .. figure:: img/logo.svg
-========================
 
 Jesús Perez Rubio y Damián Franco Álvarez
 
