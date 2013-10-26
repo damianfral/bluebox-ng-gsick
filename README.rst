@@ -24,7 +24,7 @@ Jesús Pérez Rubio
 
 + VoIP developer/Security Engineer (Quobis - Vigo) (Past)
 
-+ Front-end dev (Freelance - USA)
++ Front-end developer (Freelance - USA)
 
 
 Damián Franco Álvarez
@@ -32,7 +32,7 @@ Damián Franco Álvarez
 
 + ETSE
 
-+ VoIP developer (Quobis - Vigo)
++ VoIP developer / Front-end developer (Quobis - Vigo)
 
 
 
@@ -178,6 +178,17 @@ Funny scenarios - Department of Defense
 
 .. image:: img/defense.png
 
+VoIP security - Fraud cases
+---------------------------
+
+- 1 month -> 60.000 $
+- 1/2 day -> 23.000 " and 15
+- 46 hours -> 11.000 calls and 120.000 $
+- 500.000 calls -> 1.000.000 $
+- Shadow Comunications
+	+ 1.500.000 calls
+	+ 11.000.000 euros
+	+ 42 individuals
 
 
 VoIP - Attack Vectors
@@ -193,9 +204,21 @@ VoIP - Security Tools
 .. image:: img/tools.png
 
 
-Bluebox-ng
-----------
+Bluebox-ng beta
+---------------
 
+- Bluebox-ng is a GPL VoIP/UC vulnerability scanner
+
+- CoffeeScript and Node.js
+
+- Our 2 cents to help to improve information security practices in this kind of environments
+
+- Alpha version: bad design and scaling problems
+
+- https://github.com/jesusprubio/bluebox-ng
+
+Bluebox-ng - auto
+-----------------
 
 
 
@@ -206,10 +229,25 @@ Bluebox-ng 2.0
 
 - Redesigned
 
-- NoFlo
+- Auto
+
+- Reports
 
 - Error detection
 
 - Web interface (¿?)
+
+- SIP Fuzzing (¿¿??)
+
+- NoFlo
+
+
+Bluebox-ng 2.0 - NoFlo
+----------------------
+
+.. image:: img/noflo.png
+
+
+
 
 
