@@ -17,15 +17,18 @@
 About
 -----
 
-Jesús Pérez Rubio
-*****************
+Jesús Pérez
+***********
 
 + FIC 
 
 + VoIP developer/Security Engineer (Quobis - Vigo) (Past)
 
 + Front-end dev (Freelance - USA)
+ 
++ @jesusprubio
 
++ jesusprubio@gmail.com
 
 Damián Franco Álvarez
 *********************
@@ -34,6 +37,9 @@ Damián Franco Álvarez
 
 + VoIP developer (Quobis - Vigo)
 
++ @pamojarpan
+
++ huevofritopamojarpan@gmail.com
 
 
 Contents
@@ -149,7 +155,7 @@ SIP k ase! - SIP Entities
 SIP k ase! - IMS
 ----------------
 
-.. image:: img/nodes.png
+.. image:: img/sheldon.png
 
 
 
@@ -213,3 +219,37 @@ Bluebox-ng 2.0
 - Web interface (¿?)
 
 
+References
+----------
+- Bluebox-ng - https://github.com/jesusprubio/bluebox-ng
+- Quobis Whitepaper - "Riegos actuales de la VoIP"
+- Personal SIP Metasploit modules - https://github.com/jesusprubio/metasploit-sip/
+- UCSniff - http://ucsniff.sourceforge.net/
+- VoIPHopper - http://voiphopper.sourceforge.net/
+- VoIPer - http://voiper.sourceforge.net/
+- SIPp - http://sipp.sourceforge.net/
+- SIPVicious - https://code.google.com/p/sipvicious/
+- Viproy VoIP - http://viproy.com/voipkit/
+- D. Endler, M. Collier. Hacking VoIP Exposed. McGraw-Hill Professional Publishing 2006. - http://www.hackingvoip.com
+- G. G. Peña, "DoS, a practial approach" -  http://dosis.kung-foo.net/dos-rooted-print-EN-03.pdf
+- Roberto Blesa Sierra, "Agente SIP embebido para establecimiento de sesiones VoIP y mensajería instantánea" - http://upcommons.upc.edu/pfc/bitstream/2099.1/6191/1/memoria.pdf
+- RFC 3261 SIP, "Session Initiation Protocol" - http://www.ietf.org/rfc/rfc3261.txt
+- ExploitSearch - http://www.exploitsearch.net/
+- SHODAN - http://www.shodanhq.com/
+
+
+Thanks
+------
+Jesús Pérez
+***********
+
++ @jesusprubio
+
++ jesusprubio@gmail.com
+
+Damián Franco Álvarez
+*********************
+
++ @pamojarpan
+
++ huevofritopamojarpan@gmail.com
