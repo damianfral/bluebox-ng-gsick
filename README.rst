@@ -278,6 +278,15 @@ Bluebox-ng 2.0 - NoFlo
 
 
 
+Bluebox-ng 2.0 - Call for developers
+------------------------------------
+
+.. raw:: html
+
+	<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/8To-6VIJZRE?hl=es_ES&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8To-6VIJZRE?hl=es_ES&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+
 References
 ----------
 
