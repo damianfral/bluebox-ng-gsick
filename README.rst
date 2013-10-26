@@ -191,8 +191,12 @@ Bluebox-ng 2.0
 
 - CoffeeScript
 
+- Redesigned
+
 - NoFlo
 
--
+- Error detection
+
+- Web interface (¿?)
 
 
