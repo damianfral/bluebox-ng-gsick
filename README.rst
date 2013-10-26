@@ -8,14 +8,25 @@
 			box-shadow: none !important;
 			background-color: rgba(0,0,0,0.0) !important;
 		}
-		h1, h2, h3, h4
+		h1
 		{
 			font-size: 166% !important;
 		}
+		h2
+		{
+			margin-top: 64px !important;
+			font-size: 120% !important;
+		}
+
 	</style>
 
 
+VoIP pentesting with Bluebox-ng
+-------------------------------
+
 .. image:: img/logo.svg
+
+.. image:: img/gsick.png
 
 
 About
@@ -57,7 +68,7 @@ Contents
 
 - VoIP security
 
-- Bluebox-ng
+- Bluebox-ng beta
 
 - Bluebox-ng 2.0
 
@@ -140,7 +151,7 @@ VoIP - SIP Call flow
 VoIP - Systems
 --------------
 
-.. image:: img/systems.png
+.. image:: img/systems_.png
 
 
 VoIP - RFCs
@@ -159,10 +170,8 @@ SIP k ase! - SIP Entities
 SIP k ase! - IMS
 ----------------
 
-.. image:: img/sheldon.png
-
-
-
+.. figure:: img/sheldon_.png
+	
 Funny scenarios - Prison
 ------------------------
 
@@ -192,7 +201,7 @@ VoIP security - Fraud cases
 ---------------------------
 
 - 1 month -> 60.000 $
-- 1/2 day -> 23.000 " and 15
+- 1/2 day -> 23.000 " and 15.000 $
 - 46 hours -> 11.000 calls and 120.000 $
 - 500.000 calls -> 1.000.000 $
 - Shadow Comunications
@@ -223,12 +232,22 @@ Bluebox-ng beta
 
 - Our 2 cents to help to improve information security practices in this kind of environments
 
-- Alpha version: bad design and scaling problems
+- Bad design and scaling problems
 
 - https://github.com/jesusprubio/bluebox-ng
 
+Bluebox-ng beta - Screenshoot
+-----------------------------
+
+.. image:: img/screenshoot.png
+
 Bluebox-ng - auto
 -----------------
+
+.. raw:: html
+
+	<video controls="true" src="video/auto.ogv">
+	</video>
 
 
 
@@ -259,10 +278,9 @@ Bluebox-ng 2.0 - NoFlo
 
 
 
-
-
 References
 ----------
+
 - Bluebox-ng - https://github.com/jesusprubio/bluebox-ng
 - Quobis Whitepaper - "Riegos actuales de la VoIP"
 - Personal SIP Metasploit modules - https://github.com/jesusprubio/metasploit-sip/
@@ -271,8 +289,12 @@ References
 - VoIPer - http://voiper.sourceforge.net/
 - SIPp - http://sipp.sourceforge.net/
 - SIPVicious - https://code.google.com/p/sipvicious/
+
+References
+----------
+
 - Viproy VoIP - http://viproy.com/voipkit/
-- D. Endler, M. Collier. Hacking VoIP Exposed. McGraw-Hill Professional Publishing 2006. - http://www.hackingvoip.com
+- D. Endler, M. Collier. Hacking VoIP Exposed http://www.hackingvoip.com
 - G. G. Peña, "DoS, a practial approach" -  http://dosis.kung-foo.net/dos-rooted-print-EN-03.pdf
 - Roberto Blesa Sierra, "Agente SIP embebido para establecimiento de sesiones VoIP y mensajería instantánea" - http://upcommons.upc.edu/pfc/bitstream/2099.1/6191/1/memoria.pdf
 - RFC 3261 SIP, "Session Initiation Protocol" - http://www.ietf.org/rfc/rfc3261.txt
