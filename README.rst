@@ -8,6 +8,10 @@
 			box-shadow: none !important;
 			background-color: rgba(0,0,0,0.0) !important;
 		}
+		h1, h2, h3, h4
+		{
+			font-size: 166% !important;
+		}
 	</style>
 
 
