@@ -127,6 +127,19 @@ VoIP - SIP Call flow
 .. image:: img/calling.png
 
 
+VoIP - Systems
+--------------
+
+.. image:: img/systems.png
+
+
+VoIP - RFCs
+-----------
+
+.. image:: img/rfcs.png
+
+http://www.packetizer.com/ipmc/sip/standards.html
+
 SIP k ase! - SIP Entities
 -------------------------
 
@@ -160,8 +173,8 @@ Funny scenarios - NASA
 http://itcd.hq.nasa.gov/telephone_outage.html
 
 
-Funny scenarios - Departament of Defense
-----------------------------------------
+Funny scenarios - Department of Defense
+---------------------------------------
 
 .. image:: img/defense.png
 
