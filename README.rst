@@ -39,7 +39,7 @@ Damián Franco Álvarez
 Contents
 --------
 
-- VoIP in 5 slides
+- VoIP
 
 - SIP k ase!
 
@@ -52,35 +52,26 @@ Contents
 - Bluebox-ng 2.0
 
 
-VoIP in 5 slides
-----------------
+VoIP
+----
 
 
 
-VoIP in 5 slides - Intro
-------------------------
+VoIP - Intro
+------------
 
-- VoIP = Voice over 
+- VoIP = Voice over IP
 
 - UC = Unified Communications
 
-- Main protocols (clear)
-
-- Influenced by HTTP 
+- Main protocols
 
 .. image:: img/architecture.png
 	
 
 
-VoIP in 5 slides - SIP
-----------------------
-
-
-
-
-
-Functions
----------
+VoIP - SIP
+----------
 
 Signaling
 *********
@@ -94,8 +85,8 @@ Signaling
 + Session management
 
 
-Requests
---------
+VoIP - SIP Requests
+-------------------
 
 + REGISTER
 
@@ -111,8 +102,8 @@ Requests
 
 
 
-Responses
----------
+VoIP - SIP Responses
+--------------------
 
 - 180 Ringing
 
@@ -125,37 +116,83 @@ Responses
 - 486 Busy here
 
 
-Registering flow
-----------------
+VoIP - SIP Registering flow
+---------------------------
 
 .. image:: img/registering.png
 
-Call flow
----------
+VoIP - SIP Call flow
+--------------------
 
 .. image:: img/calling.png
 
 
-SIP k ase!
-----------
+SIP k ase! - SIP Entities
+-------------------------
+
+.. image:: img/nodes.png
+
+
+SIP k ase! - IMS
+----------------
+
+.. image:: img/nodes.png
 
 
 
+Funny scenarios - Prison
+------------------------
 
-Funny scenarios
----------------
+
+.. raw:: html
+
+	<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/ar2Oq2ENsrU?hl=es_ES&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ar2Oq2ENsrU?hl=es_ES&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 
-VoIP security
--------------
+
+Funny scenarios - NASA
+----------------------
+
+.. raw:: html
+
+	<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/N0uYM8L32J4?version=3&amp;hl=es_ES&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/N0uYM8L32J4?version=3&amp;hl=es_ES&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+http://itcd.hq.nasa.gov/telephone_outage.html
+
+
+Funny scenarios - Departament of Defense
+----------------------------------------
+
+.. image:: img/defense.png
+
+
+
+VoIP - Attack Vectors
+---------------------
+
+
+.. image:: img/vectors.png
+
+
+VoIP - Security Tools
+---------------------
+
+.. image:: img/tools.png
 
 
 Bluebox-ng
 ----------
 
 
+
+
 Bluebox-ng 2.0
 --------------
 
+- CoffeeScript
+
+- NoFlo
+
+-
 
 
