@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section class="slide level1">
+
+<style>
+    img:first-of-type {
+        border: 0 !important;
+        box-shadow: none !important;
+        background-color: rgba(0,0,0,0.0) !important;
+    }
+    h1, h2, h3, h4
+    {
+        font-size: 166% !important;
+    }
+</style>
+<p><img src="img/logo.svg" alt="image" /></p>
+</section>
+<section id="about" class="slide level1">
+<h1>About</h1>
+<h2 id="jesús-pérez-rubio">Jesús Pérez Rubio</h2>
+<ul>
+<li>FIC</li>
+<li>VoIP developer/Security Engineer (Quobis - Vigo) (Past)</li>
+<li>Front-end developer (Freelance - USA)</li>
+</ul>
+<h2 id="damián-franco-álvarez">Damián Franco Álvarez</h2>
+<ul>
+<li>ETSE</li>
+<li>VoIP developer / Front-end developer (Quobis - Vigo)</li>
+</ul>
+</section>
+<section id="contents" class="slide level1">
+<h1>Contents</h1>
+<ul>
+<li>VoIP</li>
+<li>SIP k ase!</li>
+<li>Funny scenarios</li>
+<li>VoIP security</li>
+<li>Bluebox-ng</li>
+<li>Bluebox-ng 2.0</li>
+</ul>
+</section>
+<section id="voip" class="slide level1">
+<h1>VoIP</h1>
+</section>
+<section id="voip---intro" class="slide level1">
+<h1>VoIP - Intro</h1>
+<ul>
+<li>VoIP = Voice over IP</li>
+<li>UC = Unified Communications</li>
+<li>Main protocols</li>
+</ul>
+<p><img src="img/architecture.png" alt="image" /></p>
+</section>
+<section id="voip---sip" class="slide level1">
+<h1>VoIP - SIP</h1>
+<h2 id="signaling">Signaling</h2>
+<ul>
+<li>User location</li>
+<li>User availability</li>
+<li>Session establishment</li>
+<li>Session management</li>
+</ul>
+</section>
+<section id="voip---sip-requests" class="slide level1">
+<h1>VoIP - SIP Requests</h1>
+<ul>
+<li>REGISTER</li>
+<li>INVITE</li>
+<li>MESSAGE</li>
+<li>CANCEL</li>
+<li>ACK</li>
+<li>BYE</li>
+</ul>
+</section>
+<section id="voip---sip-responses" class="slide level1">
+<h1>VoIP - SIP Responses</h1>
+<ul>
+<li>180 Ringing</li>
+<li>200 OK</li>
+<li>401 Unauthorized</li>
+<li>404 Not found</li>
+<li>486 Busy here</li>
+</ul>
+</section>
+<section id="voip---sip-registering-flow" class="slide level1">
+<h1>VoIP - SIP Registering flow</h1>
+<p><img src="img/registering.png" alt="image" /></p>
+</section>
+<section id="voip---sip-call-flow" class="slide level1">
+<h1>VoIP - SIP Call flow</h1>
+<p><img src="img/calling.png" alt="image" /></p>
+</section>
+<section id="voip---systems" class="slide level1">
+<h1>VoIP - Systems</h1>
+<p><img src="img/systems.png" alt="image" /></p>
+</section>
+<section id="voip---rfcs" class="slide level1">
+<h1>VoIP - RFCs</h1>
+<p><img src="img/rfcs.png" alt="image" /></p>
+<p><a href="http://www.packetizer.com/ipmc/sip/standards.html">http://www.packetizer.com/ipmc/sip/standards.html</a></p>
+</section>
+<section id="sip-k-ase---sip-entities" class="slide level1">
+<h1>SIP k ase! - SIP Entities</h1>
+<p><img src="img/nodes.png" alt="image" /></p>
+</section>
+<section id="sip-k-ase---ims" class="slide level1">
+<h1>SIP k ase! - IMS</h1>
+<p><img src="img/nodes.png" alt="image" /></p>
+</section>
+<section id="funny-scenarios---prison" class="slide level1">
+<h1>Funny scenarios - Prison</h1>
+<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/ar2Oq2ENsrU?hl=es_ES&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ar2Oq2ENsrU?hl=es_ES&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+</section>
+<section id="funny-scenarios---nasa" class="slide level1">
+<h1>Funny scenarios - NASA</h1>
+<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/N0uYM8L32J4?version=3&amp;hl=es_ES&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/N0uYM8L32J4?version=3&amp;hl=es_ES&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<p><a href="http://itcd.hq.nasa.gov/telephone_outage.html">http://itcd.hq.nasa.gov/telephone_outage.html</a></p>
+</section>
+<section id="funny-scenarios---department-of-defense" class="slide level1">
+<h1>Funny scenarios - Department of Defense</h1>
+<p><img src="img/defense.png" alt="image" /></p>
+</section>
+<section id="voip-security---fraud-cases" class="slide level1">
+<h1>VoIP security - Fraud cases</h1>
+<ul>
+<li>1 month -&gt; 60.000 $</li>
+<li>1/2 day -&gt; 23.000 &quot; and 15</li>
+<li>46 hours -&gt; 11.000 calls and 120.000 $</li>
+<li>500.000 calls -&gt; 1.000.000 $</li>
+<li><dl>
+<dt>Shadow Comunications</dt>
+<dd><ul>
+<li>1.500.000 calls</li>
+<li>11.000.000 euros</li>
+<li>42 individuals</li>
+</ul>
+</dd>
+</dl></li>
+</ul>
+</section>
+<section id="voip---attack-vectors" class="slide level1">
+<h1>VoIP - Attack Vectors</h1>
+<p><img src="img/vectors.png" alt="image" /></p>
+</section>
+<section id="voip---security-tools" class="slide level1">
+<h1>VoIP - Security Tools</h1>
+<p><img src="img/tools.png" alt="image" /></p>
+</section>
+<section id="bluebox-ng-beta" class="slide level1">
+<h1>Bluebox-ng beta</h1>
+<ul>
+<li>Bluebox-ng is a GPL VoIP/UC vulnerability scanner</li>
+<li>CoffeeScript and Node.js</li>
+<li>Our 2 cents to help to improve information security practices in this kind of environments</li>
+<li>Alpha version: bad design and scaling problems</li>
+<li><a href="https://github.com/jesusprubio/bluebox-ng">https://github.com/jesusprubio/bluebox-ng</a></li>
+</ul>
+</section>
+<section id="bluebox-ng---auto" class="slide level1">
+<h1>Bluebox-ng - auto</h1>
+</section>
+<section id="bluebox-ng-2.0" class="slide level1">
+<h1>Bluebox-ng 2.0</h1>
+<ul>
+<li>CoffeeScript</li>
+<li>Redesigned</li>
+<li>Auto</li>
+<li>Reports</li>
+<li>Error detection</li>
+<li>Web interface (¿?)</li>
+<li>SIP Fuzzing (¿¿??)</li>
+<li>NoFlo</li>
+</ul>
+</section>
+<section id="bluebox-ng-2.0---noflo" class="slide level1">
+<h1>Bluebox-ng 2.0 - NoFlo</h1>
+<p><img src="img/noflo.png" alt="image" /></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'beige', // available themes are in /css/theme
+        transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>
